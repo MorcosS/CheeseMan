@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="competition.eseed.com.cheeseman.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+        android:layout_weight="0.8">
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="50sp"
+        android:id="@+id/imageView"
+        android:src="@drawable/cheese"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingRight="10sp"/>
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="50sp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/cheese"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingRight="10sp" />
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="50sp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/cheese"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingRight="10sp" />
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="50sp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/cheese"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingRight="10sp" />
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="50sp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/cheese"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingRight="10sp" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:orientation="horizontal"
+    android:layout_weight="0.2">
+
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/cheeseman"
+        android:background="@android:color/transparent"/>
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/cheeseman"
+        android:background="@android:color/transparent"/>
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/cheeseman"
+        android:background="@android:color/transparent"/>
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@drawable/cheeseman"
+        android:background="@android:color/transparent"/>
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:src="@drawable/cheeseman"
+        android:background="@android:color/transparent"/>
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>
